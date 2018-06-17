@@ -1,0 +1,38 @@
+::-moz-selection {
+  background: $color-darker;
+  color: $color-invert;
+}
+
+::selection {
+  background: $color-darker;
+  color: $color-invert;
+}
+
+h3 {
+  font-family: $font-family-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+a {
+  color: $color-default;
+}
+
+.sidebar {
+  h1 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-weight: normal;
+  }
+
+  * {
+    font-size: 0.9rem;
+  }
+}
+
+p {
+  font-size: 1.3rem;
+}
