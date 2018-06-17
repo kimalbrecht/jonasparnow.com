@@ -1,13 +1,10 @@
-# Christopher Wratils Homepage
+# Jonas Parnow Homepage
 
 Die Seite basiert auf den JavaScript-Frameworks [Vue](https://vuejs.org/) und [Nuxt](https://nuxtjs.org/). Die Seite wird auf [Github](https://github.com/) gehostet und wird von [Netlify](https://www.netlify.com/) bei jedem Push neu als statisches HTML und JavaScript generiert.
 
 ## Ordnerstruktur
 
-Der Header (Logo und Links) und Footer (Kontakt, Links) werden in `layouts/default` bearbeitet.
-
-Die Inhalte der Seiten (Home, Publications, Teaching, Data) werden in den jeweiligen Datein in `pages` bearbeitet.
-Außer auf der Startseite werden die Inhalte hauptsächlich als JavaScript-Objekte weiter unten gespeichert.
+…
 
 ## Build Setup
 
