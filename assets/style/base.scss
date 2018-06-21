@@ -33,7 +33,7 @@ html {
   display: none;
 }
 
-@include media-query($on-palm) {
+@include media-query($on-tablet-portrait) {
   .mobile-invisible {
   	visibility: visible;
     display: inherit;

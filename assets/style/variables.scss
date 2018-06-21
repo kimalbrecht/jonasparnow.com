@@ -37,9 +37,10 @@ $radius-default:	2px !default;
 
 $transition-default: 0.5s !default;
 
-$on-palm:          320px !default;
-$on-laptop:        768px !default;
-$on-desktop:       1224px !default;
+$on-tablet-portrait:	600px !default;
+$on-tablet-landscape:	900px !default;
+$on-laptop:        		1200px !default;
+$on-desktop:       		1800px !default;
 
 @mixin media-query($device) {
   @media screen and (min-width: $device) {

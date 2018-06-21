@@ -35,10 +35,15 @@
   @import "~@/assets/style/variables";
 
   header {
-    height: calc(100vh - 1rem);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     // background-color: orange;
+
+    @include media-query($on-laptop) {
+      & {
+        height: calc(100vh - 1rem);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
 </style>
