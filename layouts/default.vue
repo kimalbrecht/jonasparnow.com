@@ -9,19 +9,19 @@
       </hgroup>
     </header>
     <nav class="page-navigation sidebar" role="navigation">
-      <span>My work</span>
+      <h4>My work</h4>
       <ul>
-        <li>visualising.systems</li>
-        <li>away.photos</li>
+        <li><a href="#">visualising.systems</a></li>
+        <li><a href="#">away.photos</a></li>
       </ul>
     </nav>
     <aside class="page-aside sidebar">
-      <span>Contact</span>
+      <h4>Contact</h4>
       <ul>
-        <li>jonas@parnow.de</li>
-        <li>pubkey: 0x9283CFF6</li>
-        <li><nuxt-link to="publications">Twitter</nuxt-link></li>
-        <li><nuxt-link to="projects">Github</nuxt-link></li>
+        <li><a href="#">jonas@parnow.de</a></li>
+        <li>pubkey: <a href="#">0x9283CFF6</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Github</a></li>
       </ul>
     </aside>
     <div class="page-content" role="main">
@@ -30,7 +30,7 @@
     <footer class="page-footer sidebar" role="contentinfo">
       <ul>
         <li><nuxt-link to="imprint">Imprint</nuxt-link></li>
-        <li><nuxt-link to="privacy">Datenschutz</nuxt-link></li>
+        <li><nuxt-link to="privacy">Privacy</nuxt-link></li>
       </ul>
     </footer>
   </div>
