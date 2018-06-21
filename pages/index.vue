@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container rows">
     <header>
       <h3>I’m a research associate at the Urban Complexity Lab in Potsdam working on the visualisation of climate change scenarios. I co-run the interface and information design <a href="http://karat.studio">Studio Karat</a> and work as a freelancer in Berlin. Besides, I co-organise the DataVis Meetup.</h3>
     </header>
