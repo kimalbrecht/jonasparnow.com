@@ -1,4 +1,3 @@
-const { seo } = require('./assets/js/seo.js')
 const { favicon, msapplication } = require('./assets/js/favicon.js')
 
 module.exports = {
@@ -10,8 +9,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      ...msapplication(),
-      seo()
+      ...msapplication()
     ],
     link: [
       { rel: 'stylesheet', href: 'https://use.typekit.net/dzh0sgg.js' },
