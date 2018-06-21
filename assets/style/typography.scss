@@ -1,11 +1,11 @@
 ::-moz-selection {
-  background: $color-darker;
-  color: $color-invert;
+  background: #5F74E7;
+  color: #FAEEE4;
 }
 
 ::selection {
-  background: $color-darker;
-  color: $color-invert;
+  background: #5F74E7;
+  color: #FAEEE4;
 }
 
 h3 {
@@ -20,8 +20,13 @@ a {
 }
 
 .sidebar {
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+
   h1 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   h2 {
@@ -29,10 +34,28 @@ a {
   }
 
   * {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+}
+
+
+a {
+  &:hover, &:focus {
+    background-color: #5F74E7;
+    color: #FAEEE4;
   }
 }
 
 p {
   font-size: 1.3rem;
+
+  a {
+    text-decoration: underline;
+
+    &:hover, &:focus {
+      background-color: #5F74E7;
+      color: #FAEEE4;
+      text-decoration: none;
+    }
+  }
 }
