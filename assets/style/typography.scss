@@ -11,12 +11,18 @@
 h3 {
   font-family: $font-family-serif;
   font-size: 1.3rem;
-  font-weight: normal;
+  font-weight: $font-weight-default;
   line-height: 1.4;
-  // color: #3F4550;
 
   a {
-    color: #435B77;
+    transition-duration: 1.5s;
+  }
+
+  &:hover {
+    a {
+      background-color: rgba(255, 255, 255, 0.5);
+      transition-duration: 0.2s;
+    }
   }
 
   @include media-query($on-laptop) {
@@ -26,11 +32,11 @@ h3 {
   }
 }
 
-a {
-  color: $color-default;
-}
-
 .sidebar {
+  * {
+    line-height: 1.5;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
@@ -41,7 +47,32 @@ a {
   }
 
   h2 {
-    font-weight: normal;
+    font-weight: $font-weight-default;
+  }
+
+  h4 {
+    // font-size: $size-smallest;
+    // text-transform: uppercase;
+    // letter-spacing: 0.2em;
+    // color: rgba($color-default, 0.3)
+  }
+
+  ul a {
+    // background-color: #5F74E7;
+    // color: #FAEEE4;
+    // border-bottom: 1px solid #fff;
+
+    // &:hover {
+    //   border-bottom: none;
+    // }
+  }
+
+  hgroup {
+    a {
+      &:hover, &:focus {
+        color: $color-default;
+      }
+    }
   }
 
   * {
@@ -49,31 +80,53 @@ a {
   }
 }
 
+.page-content {
+  ul:not(.nolist) {
+    margin: $spacing / 2 0 $spacing / 2 $spacing / 2;
 
-a {
-  &:hover, &:focus {
-    background-color: #5F74E7;
-    color: #FAEEE4;
-    text-decoration: none;
+    li {
+      padding: 0.2em 1em 0.2em 1.5em;
+      list-style-position: inside;
+      text-indent: -1.4em;
+      line-height: 1.5em;
+
+      &:before {
+        content: "– ";
+        color: $color-accent;
+        margin-right: 0.5em;
+      }
+    }
+  }
+
+  p, ul, address {
+    font-size: 0.9rem;
+    max-width: 40em;
+    margin-bottom: 0.5em;
+
+    @include media-query($on-desktop) {
+      & {
+        font-size: 1.3rem;
+      }
+    }
+
+    a {
+      text-decoration: underline;
+      // background-color: rgba(255, 255, 255, 0.7);
+
+      &:hover, &:focus {
+        text-decoration: none;
+      }
+    }
   }
 }
 
-p {
-  font-size: 0.9rem;
+a {
+  color: $color-default;
+  transition-duration: 0.1s;
 
-  @include media-query($on-desktop) {
-    & {
-      font-size: 1.3rem;
-    }
-  }
-
-  a {
-    text-decoration: underline;
-
-    &:hover, &:focus {
-      background-color: #5F74E7;
-      color: #FAEEE4;
-      text-decoration: none;
-    }
+  &:hover, &:focus {
+    background-color: #5F74E7 !important;
+    color: #FAEEE4;
+    text-decoration: none;
   }
 }
