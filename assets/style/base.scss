@@ -1,6 +1,24 @@
 @charset "utf-8";
 @import "./variables";
 
+@font-face {
+  font-family: 'NittiGroteskNormal';
+  src: url('~/fonts/nittigrotesk-normal-v20.eot'); /* IE9 Compat Modes */
+  src: url('~/fonts/nittigrotesk-normal-v20.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NittiGroteskMedium';
+  src: url('~/fonts/nittigrotesk-medium-v20.eot'); /* IE9 Compat Modes */
+  src: url('~/fonts/nittigrotesk-medium-v20.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NittiGroteskNormalItalic';
+  src: url('~/fonts/nittigrotesk-normalitalic-v20.eot'); /* IE9 Compat Modes */
+  src: url('~/fonts/nittigrotesk-normalitalic-v20.woff') format('woff');
+}
+
 @mixin media-query($device) {
   @media screen and (min-width: $device) {
     @content;
