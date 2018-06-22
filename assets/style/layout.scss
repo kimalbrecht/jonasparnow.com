@@ -45,6 +45,26 @@ html {
     // background-color: orange;
   }
 
+  @include media-query($on-tablet-portrait) {
+    & {
+      grid-template-columns: 1fr 25vw 25vw 25vw 1fr;
+      grid-template-areas:
+        ". . . . ."
+        ". header header header ."
+        ". content content content ."
+        ". navigation aside footer ."
+        ". . . . .";
+
+      .page-content {
+        margin-bottom: 10vh;
+      }
+
+      .page-footer {
+        align-self: end;
+      }
+    }
+  }
+
   @include media-query($on-laptop) {
     & {
       grid-template-columns: $spacing / 2 190px 1fr $spacing / 2;
@@ -103,12 +123,6 @@ html {
   margin: 0 auto 0;
   width: 100%;
   max-width: 1000px;
-
-  @include media-query($on-tablet-portrait) {
-    & {
-      width: calc(70vw);
-    }
-  }
 
   @include media-query($on-tablet-landscape) {
     & {
