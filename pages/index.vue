@@ -60,6 +60,8 @@
   @import "~@/assets/style/variables";
 
   header {
+    margin: $spacing 0;
+
     @include media-query($on-laptop) {
       & {
         height: calc(100vh - 1rem);
