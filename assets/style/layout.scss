@@ -122,13 +122,13 @@ html {
 
   @include media-query($on-tablet-landscape) {
     & {
-      width: calc(80vw - 250px);
+      width: calc(75vw - 250px);
     }
   }
 
   @include media-query($on-laptop) {
     & {
-      width: calc(70vw - 250px);
+      width: calc(60vw - 250px);
     }
   }
 }
