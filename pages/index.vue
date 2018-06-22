@@ -1,7 +1,7 @@
 <template>
   <div class="container rows">
     <header>
-      <h3>I’m working on the <a href="http://senses-project.org/">visualisation of climate change scenarios</a> as a research associate at the <a href="https://uclab.fh-potsdam.de/">Urban Complexity Lab</a>. I&nbsp;co-run the interface and information design <a href="http://karat.studio">Studio Karat</a> and work as a free&shy;lancer in Berlin. Besides, I&nbsp;co-organise the <a href="https://datavis.berlin">DataVis Meetup</a>.</h3>
+      <h3>Jonas Parnow works on the <a href="http://senses-project.org/">visualisation of climate change scenarios</a> as a research associate at the <a href="https://uclab.fh-potsdam.de/">Urban Complexity Lab</a>. He&nbsp;co-runs the interface and information design <a href="http://karat.studio">Studio Karat</a> and works as a free&shy;lancer in Berlin.</h3>
     </header>
     <section>
       <h4>Introduction</h4>
@@ -34,8 +34,18 @@
 </template>
 
 <script>
+  import { mapState } from 'vuex'
+
   export default {
+    head () {
+      return {
+        title: this.header.title + ' – ' + this.header.subtitle
+      }
+    },
     computed: {
+      ...mapState([
+        'header'
+      ])
     },
     methods: {
     },
