@@ -124,7 +124,13 @@ h3 {
       font-weight: normal;
     }
 
-    @include media-query($on-desktop) {
+    @include media-query($on-tablet-portrait) {
+      & {
+        font-size: 1.2rem;
+      }
+    }
+
+    @include media-query($on-tablet-landscape) {
       & {
         font-size: 1.3rem;
       }
