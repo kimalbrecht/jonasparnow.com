@@ -51,13 +51,12 @@ h3 {
   }
 
   h1 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   h2 {
     font-family: $font-family-default;
     font-weight: normal;
-    font-size: 0.9rem;
   }
 
   h4 {
@@ -86,7 +85,19 @@ h3 {
   }
 
   * {
-    font-size: 0.9rem;
+    font-size: 1rem;
+
+    @include media-query($on-tablet-portrait) {
+      & {
+        font-size: 1rem;
+      }
+    }
+
+    @include media-query($on-tablet-landscape) {
+      & {
+        font-size: 0.9rem;
+      }
+    }
   }
 }
 

@@ -50,14 +50,10 @@ html {
       grid-template-columns: 1fr 25vw 25vw 25vw 1fr;
       grid-template-areas:
         ". . . . ."
-        ". header header header ."
+        ". header header . ."
         ". content content content ."
         ". navigation aside footer ."
         ". . . . .";
-
-      .page-content {
-        margin-bottom: 10vh;
-      }
 
       .page-footer {
         align-self: end;
