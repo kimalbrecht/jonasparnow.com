@@ -9,6 +9,12 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'description', content: 'Jonas Parnow works as a research associate at the Urban Complexity Lab. He co-runs the design Studio Karat and works as a free­lancer in Berlin.' },
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:site', content: '@zeto' },
+      { name: 'twitter:creator', content: '@zeto' },
+      { name: 'twitter:title', content: 'Jonas Parnow – designer for information and data based in Berlin' },
+      { name: 'twitter:description', content: 'Jonas Parnow works as a research associate at the Urban Complexity Lab. He co-runs the interface and information design Studio Karat and works as a free­lancer in Berlin.' },
       ...msapplication()
     ],
     link: [
@@ -33,7 +39,7 @@ module.exports = {
       style: 'assets/style'
     }
   },
-  loading: { color: '#3B8070' },
+  loading: { color: '#5F74E7' },
   /*
   ** Build configuration
   */
