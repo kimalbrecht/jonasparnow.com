@@ -18,11 +18,7 @@ module.exports = {
       ...msapplication()
     ],
     link: [
-      { rel: 'stylesheet', href: 'https://use.typekit.net/dzh0sgg.js' },
       ...favicon()
-    ],
-    script: [
-      { innerHTML: 'try{Typekit.load({ async: true });}catch(e){}', type: 'text/javascript', charset: 'utf-8'}
     ]
   },
   css: [
