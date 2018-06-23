@@ -8,7 +8,7 @@
       <p>I’m interested in trans­­forming data and information into <em>visual struc­tures</em>. I have a critical and open under­standing of what visuali­­sations and interfaces are and reflect on their impact and meaning for our society. Other topics of interests include <em>post-digital media</em>, <em>privacy</em>, and <em>environmental issues</em>.</p>
       <p>I prefer to work for organisations, foundations, universities, journalists, and activists with open source licenses. I also give talks and teach at universities.</p>
       <p>I feel comfortable with common front-end, some back-end programming languages and a good range of graphic appli­cations. Most of my visuali­zations emerge from the combination of diverse tools ranging from data collection and analysis to custom visuali­sation.</p>
-      <p>My private life is naturally influenced by my work and vice versa. Therefore, I am interested in all kinds of design, culture and technology, especially how we can use these tools to create a diverse, equal and fair world.</p>
+      <p>My private life is naturally influenced by my work and vice versa. Therefore, I am interested in all kinds of <em>design</em>, <em>culture</em> and <em>technology</em>, especially how we can use these tools to create a diverse, equal and fair world.</p>
       <p>Even though connected to my work, photography implies a break and recreation for me. Capturing something beautiful is a great combination of my love for aesthetics and the curiosity to explore foreign places.</p>
     </section>
     <section>

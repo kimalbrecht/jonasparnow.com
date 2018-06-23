@@ -128,7 +128,7 @@ html {
 
   @include media-query($on-laptop) {
     & {
-      width: calc(60vw - 250px);
+      width: calc(65vw - 190px);
     }
   }
 }
