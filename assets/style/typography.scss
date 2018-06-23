@@ -129,6 +129,10 @@ h3 {
   }
 
   h4 {
+    font-size: 1.1rem;
+    margin-top: $spacing / 2;
+    margin-bottom: $spacing / 3;
+
     @include media-query($on-tablet-landscape) {
       & {
         margin-top: $spacing * 1.5;
@@ -140,6 +144,10 @@ h3 {
   }
 
   h5 {
+    font-size: 1rem;
+    margin-top: $spacing / 2;
+    margin-bottom: $spacing / 4;
+
     @include media-query($on-tablet-landscape) {
       & {
         margin-top: $spacing * 1.5;
@@ -152,6 +160,7 @@ h3 {
 
   p, ul, address {
     font-size: 1rem;
+    line-height: 1.4;
     max-width: 40em;
     margin-bottom: 0.5em;
     max-width: 700px;
