@@ -7,11 +7,8 @@ const store = () => new Vuex.Store({
   state: {
     page: {
       title: 'Jonas Parnow',
-      description: 'I’m a research associate at the Urban Complexity Lab in Potsdam working on the visualisation of climate change scenarios. I co-run the interface and information design Studio Karat and work as a freelancer in Berlin. Besides, I co-organise the DataVis Meetup.',
+      description: 'Jonas Parnow works as a research associate at the Urban Complexity Lab. He co-runs the design Studio Karat and works as a free­lancer in Berlin.',
       url: 'https://jonasparnow.de',
-      verification: {
-        google: 'xxx'
-      },
       lang: 'en_US'
     },
     header: {
@@ -28,27 +25,8 @@ const store = () => new Vuex.Store({
         postal: '10407',
         city: 'Berlin',
         country: 'Germany'
-      },
-      tel: {
-        value: '00492214705067',
-        label: '+49 221 470-5067'
-      },
-      mail: {
-        name: 'C.Wratil',
-        host: 'uni-koeln.de'
-      },
-      social: {
-        twitter: false,
-        github: false,
-        facebook: false
       }
     }
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
   }
 })
 

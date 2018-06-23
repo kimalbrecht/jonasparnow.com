@@ -2,7 +2,7 @@
   <nav class="page-navigation sidebar" role="navigation">
     <h4>Projects</h4>
     <ul>
-      <li><a href="https://visualising.systems">visualising.systems</a></li>
+      <li><a href="http://visualising.systems">visualising.systems</a></li>
       <li><a href="https://away.photos">away.photos</a></li>
     </ul>
   </nav>

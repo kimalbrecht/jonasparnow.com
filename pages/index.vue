@@ -15,7 +15,7 @@
       <h4>Links</h4>
       <p>As my work and the projects I work on cover different diciplines and topics I like to keep them in seperate places:</p>
       <ul class="list">
-        <li><a href="https://visualising.systems">visualising.systems</a><br />My recent data visualisation and information design works</li>
+        <li><a href="http://visualising.systems">visualising.systems</a><br />My recent data visualisation and information design works</li>
         <li><a href="https://away.photos">away.photos</a><br />A collection of my favourite photography projects</li>
         <li><a href="http://karat.studio">karat.studio</a><br />The interface and information studio I co-run</p></li>
         <li><a href="https://datavis.berlin">datavis.berlin</a><br />A collection of data visualisation links I build for the data vis Meetup</li>
