@@ -15,6 +15,10 @@ module.exports = {
       { name: 'twitter:creator', content: '@zeto' },
       { name: 'twitter:title', content: 'Jonas Parnow – designer for information and data based in Berlin' },
       { name: 'twitter:description', content: 'Jonas Parnow works as a research associate at the Urban Complexity Lab. He co-runs the interface and information design Studio Karat and works as a free­lancer in Berlin.' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:title', content: 'Jonas Parnow – designer for information and data based in Berlin' },
+      { property: 'og:description', content: 'Jonas Parnow works as a research associate at the Urban Complexity Lab. He co-runs the interface and information design Studio Karat and works as a free­lancer in Berlin.' },
+      { property: 'og:site_name', content: 'Jonas Parnow – designer for information and data based in Berlin' },
       ...msapplication()
     ],
     link: [
