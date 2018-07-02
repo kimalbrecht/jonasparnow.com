@@ -6,6 +6,9 @@ module.exports = {
   */
   head: {
     title: 'Jonas Parnow – designer for information and data based in Berlin',
+    htmlAttrs: {
+      lang: 'en-GB',
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
