@@ -59,7 +59,7 @@
     @include media-query($on-laptop) {
       & {
         margin: 0;
-        height: calc(100vh - 1rem);
+        height: calc(88vh - 1rem);
         display: flex;
         align-items: center;
         justify-content: center;
