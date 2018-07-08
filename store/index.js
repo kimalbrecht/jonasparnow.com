@@ -9,7 +9,7 @@ const store = () => new Vuex.Store({
       title: 'Jonas Parnow',
       description: 'Jonas Parnow works as a research associate at the Urban Complexity Lab. He co-runs the design Studio Karat and works as a free­lancer in Berlin.',
       url: 'https://jonasparnow.de',
-      lang: 'en_US'
+      lang: 'en-GB'
     },
     header: {
       title: 'Jonas Parnow',

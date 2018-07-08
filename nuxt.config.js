@@ -1,9 +1,6 @@
 const { favicon, msapplication } = require('./assets/js/favicon.js')
 
 module.exports = {
-  /*
-  ** Headers of the page
-  */
   head: {
     title: 'Jonas Parnow – designer for information and data based in Berlin',
     htmlAttrs: {
@@ -30,27 +27,16 @@ module.exports = {
     ]
   },
   css: [
-    // Load a node module directly (here it's a SASS file)
     'normalize-scss',
-    // CSS file in the project
     '@/assets/style/base.scss'
   ],
-  /*
-  ** Customize the progress bar color
-  */
   resolve: {
     alias: {
       style: 'assets/style'
     }
   },
   loading: { color: '#5F74E7' },
-  /*
-  ** Build configuration
-  */
   build: {
-    /*
-    ** Run ESLint on save
-    */
     extend (config, ctx) {
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
