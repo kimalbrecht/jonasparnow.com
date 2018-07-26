@@ -14,27 +14,24 @@ function get(address, obj) {
 }
 
 module.exports = {
-  seo: function (arr, cfg) {
+  seo: function (cfg) {
+  	const arr = []
   	const tags = [
   		// General
-  		[ 'description', 'description', 'name' ],
-  		[ 'author', 'author.name', 'name' ],
+  		[ 'description', 'page.description', 'name' ],
 			// OpenGraph
-			[ 'og:title', 'title', 'property' ],
-			[ 'og:locale', 'lang', 'property' ],
-			[ 'og:description', 'description', 'property' ],
-			[ 'og:url', 'url', 'property' ],
-			[ 'og:site_name', 'title', 'property' ],
+			[ 'og:type', 'page.type', 'property' ],
+			[ 'og:title', 'page.title.full', 'property' ],
+			[ 'og:description', 'page.description', 'property' ],
+			[ 'og:site_name', 'page.title.full', 'property' ],
 			// Twitter
-			[ 'twitter:site', 'author.twitter', 'name' ],
-			[ 'twitter:creator', 'author.twitter', 'name' ],
-			// Verification
-			[ 'google-site-verification', 'verification.google', 'name' ],
-			[ 'yandex-verification', 'verification.yandex', 'name' ],
-			[ 'msvalidate.01', 'verification.bing', 'name' ],
-			[ 'alexaVerifyID', 'verification.alexa', 'name' ],
-			[ 'p:domain_verify', 'verification.pinterest', 'name' ],
-			[ 'norton-safeweb-site-verification', 'verification.norton', 'name' ]
+			[ 'twitter:card', 'page.card', 'name' ],
+			[ 'twitter:site', 'contact.twitter', 'name' ],
+			[ 'twitter:creator', 'contact.twitter', 'name' ],
+			[ 'twitter:title', 'page.title.full', 'name' ],
+			[ 'twitter:description', 'page.description', 'name' ],
+			// Others
+			[ 'application-name', 'page.title.full', 'property' ]
 		]
 		tags.forEach(tag => {
 			const [attr, key, name] = tag

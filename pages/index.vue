@@ -39,12 +39,12 @@
   export default {
     head () {
       return {
-        title: this.header.title + ' – ' + this.header.subtitle
+        title: this.page.title.main + ' – ' + this.page.title.subtitle
       }
     },
     computed: {
       ...mapState([
-        'header'
+        'page'
       ])
     }
   }

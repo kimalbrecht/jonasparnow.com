@@ -47,7 +47,7 @@
     head () {
       return {
         title: 'Privacy',
-        titleTemplate: '%s – ' + this.page.title
+        titleTemplate: '%s – ' + this.page.title.main
       }
     },
     computed: {

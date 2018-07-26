@@ -2,8 +2,8 @@
   <header class="page-header sidebar">
     <hgroup class="page-logo" role="banner">
       <nuxt-link to="/">
-        <h1 v-html="header.title" />
-        <h2 v-html="header.subtitle" />
+        <h1 v-html="page.title.main" />
+        <h2 v-html="page.title.subtitle" />
       </nuxt-link>
     </hgroup>
   </header>
@@ -16,7 +16,7 @@
   export default {
     computed: {
       ...mapState([
-        'header'
+        'page'
       ])
     }
   }

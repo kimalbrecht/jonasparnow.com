@@ -1,25 +1,17 @@
 const { favicon, msapplication } = require('./assets/js/favicon.js')
+const { seo } = require('./assets/js/seo.js')
+const { config } = require('./config.js')
 
 module.exports = {
   head: {
-    title: 'Jonas Parnow – designer for information and data based in Berlin',
+    title: config.page.title.full,
     htmlAttrs: {
-      lang: 'en-GB',
+      lang: config.page.lang,
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'description', content: 'Jonas Parnow works as a research associate at the Urban Complexity Lab. He co-runs the design Studio Karat and works as a free­lancer in Berlin.' },
-      { name: 'twitter:card', content: 'summary' },
-      { name: 'twitter:site', content: '@zeto' },
-      { name: 'twitter:creator', content: '@zeto' },
-      { name: 'twitter:title', content: 'Jonas Parnow – designer for information and data based in Berlin' },
-      { name: 'twitter:description', content: 'Jonas Parnow works as a research associate at the Urban Complexity Lab. He co-runs the interface and information design Studio Karat and works as a free­lancer in Berlin.' },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:title', content: 'Jonas Parnow – designer for information and data based in Berlin' },
-      { property: 'og:description', content: 'Jonas Parnow works as a research associate at the Urban Complexity Lab. He co-runs the interface and information design Studio Karat and works as a free­lancer in Berlin.' },
-      { property: 'og:site_name', content: 'Jonas Parnow – designer for information and data based in Berlin' },
-      { name: 'application-name', content: 'Jonas Parnow – designer for information and data based in Berlin' },
+      ...seo(config),
       ...msapplication()
     ],
     link: [
@@ -39,10 +31,10 @@ module.exports = {
    '@nuxtjs/sitemap'
   ],
   sitemap: {
-    hostname: 'https://jonasparnow.de',
+    hostname: config.page.url,
     generate: true
   },
-  loading: { color: '#5F74E7' },
+  loading: { color: config.page.color },
   build: {
     extend (config, ctx) {
       if (ctx.isDev && ctx.isClient) {

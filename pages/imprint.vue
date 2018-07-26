@@ -2,7 +2,7 @@
   <div class="container rows">
     <section>
       <h4 class="page-title">Impressum</h4>
-      <p>Verantwortlich für diese Homepage (Diensteanbieter) nach § 6 des Telemediengesetzes ist Jonas Parnow.</p>
+      <p>Verantwortlich für diese Homepage (Diensteanbieter) nach § 6 des Telemediengesetzes ist {{ contact.name.given }} {{ contact.name.family }}.</p>
       <Address />
     </section>
     <section>
@@ -32,12 +32,13 @@
     head () {
       return {
         title: 'Imprint',
-        titleTemplate: '%s – ' + this.page.title
+        titleTemplate: '%s – ' + this.page.title.main
       }
     },
     computed: {
       ...mapState([
-        'page'
+        'page',
+        'contact'
       ])
     },
     methods: {
