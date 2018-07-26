@@ -35,6 +35,13 @@ module.exports = {
       style: 'assets/style'
     }
   },
+  modules: [
+   '@nuxtjs/sitemap'
+  ],
+  sitemap: {
+    hostname: 'https://jonasparnow.de',
+    generate: true
+  },
   loading: { color: '#5F74E7' },
   build: {
     extend (config, ctx) {

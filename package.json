@@ -1,6 +1,6 @@
 {
   "name": "jonas-parnow",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Jonas Parnow’s website",
   "author": "Jonas <jonas@parnow.de>",
   "private": true,
@@ -16,6 +16,7 @@
     "nuxt": "^1.4.1"
   },
   "devDependencies": {
+    "@nuxtjs/sitemap": "^0.1.1",
     "babel-eslint": "^8.2.6",
     "eslint": "^5.2.0",
     "eslint-config-standard": "^11.0.0",
