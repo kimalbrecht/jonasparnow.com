@@ -6,7 +6,7 @@ module.exports = {
       title: {
         main: 'Jonas Parnow',
         subtitle: 'designer for information and data based in Berlin',
-        full: 'Jonas Parnow – designer for information and data based in Berlin'
+        full: 'Jonas Parnow – designer for information and data'
       },
       lang: 'en-GB',
       description: 'Jonas Parnow works as a research associate at the Urban Complexity Lab. He co-runs the design Studio Karat and works as a free­lancer in Berlin.',
