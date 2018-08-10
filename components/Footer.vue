@@ -1,8 +1,8 @@
 <template>
   <footer class="page-footer sidebar" role="contentinfo">
     <ul>
-      <li><nuxt-link to="imprint">Imprint</nuxt-link></li>
-      <li><nuxt-link to="privacy">Privacy</nuxt-link></li>
+      <li><nuxt-link to="/imprint">Imprint</nuxt-link></li>
+      <li><nuxt-link to="/privacy">Privacy</nuxt-link></li>
     </ul>
   </footer>
 </template>
