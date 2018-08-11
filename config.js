@@ -10,7 +10,7 @@ module.exports = {
       },
       lang: 'en-GB',
       description: 'Jonas Parnow works as a research associate at the Urban Complexity Lab. He co-runs the design Studio Karat and works as a free­lancer in Berlin.',
-      url: 'https://jonasparnow.de',
+      url: 'https://jonasparnow.de', // without trailing slash!
       color: '#5F74E7',
       card: 'summary',
       type: 'website'

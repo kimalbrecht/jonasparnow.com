@@ -12,10 +12,10 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       ...seo(config),
-      ...msapplication()
+      ...msapplication(config.page.url)
     ],
     link: [
-      ...favicon()
+      ...favicon(config.page.url)
     ]
   },
   css: [
