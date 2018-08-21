@@ -27,6 +27,9 @@ module.exports = {
       style: 'assets/style'
     }
   },
+  env: {
+    lang: process.env.LANG || 'en'
+  },
   modules: [
    '@nuxtjs/sitemap'
   ],
