@@ -1,7 +1,7 @@
 const { favicon, msapplication } = require('./assets/js/favicon.js')
 const { seo } = require('./assets/js/seo.js')
 const { config } = require('./config.js')
-const { links } = require('./head.js')
+const { links } = require('./assets/js/head.js')
 
 module.exports = {
   head: {
