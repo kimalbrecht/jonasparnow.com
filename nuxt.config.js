@@ -1,6 +1,7 @@
 const { favicon, msapplication } = require('./assets/js/favicon.js')
 const { seo } = require('./assets/js/seo.js')
 const { config } = require('./config.js')
+const { links } = require('./head.js')
 
 module.exports = {
   head: {
@@ -15,7 +16,8 @@ module.exports = {
       ...msapplication(config.page.url)
     ],
     link: [
-      ...favicon(config.page.url)
+      ...favicon(config.page.url),
+      ...links(config)
     ]
   },
   css: [

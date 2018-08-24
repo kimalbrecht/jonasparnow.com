@@ -13,7 +13,8 @@ module.exports = {
       url: 'https://jonasparnow.com', // without trailing slash!
       color: '#5F74E7',
       card: 'summary',
-      type: 'website'
+      type: 'website',
+      imprint: '/imprint'
     },
     contact: {
       name: {
