@@ -59,6 +59,13 @@ html {
   }
 }
 
+@include media-query($on-laptop) {
+  .tablet-visible {
+    visibility: hidden;
+    display: none;
+  }
+}
+
 a, .clickable {
   text-decoration: none;
   cursor: pointer;
