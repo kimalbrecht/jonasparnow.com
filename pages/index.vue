@@ -20,7 +20,7 @@
       <p>I prefer to work for organisations, foundations, universities, journalists, and activists with open source licenses. I also give talks and teach at universities. In Berlin, I co-organise the <a href="https://datavis.berlin">DataVis Meetup</a>.</p>
       <p>I feel comfortable with common front-end, some back-end programming languages and a good range of graphic appli­cations. Most of my vi&shy;su&shy;al&shy;isa&shy;tions emerge from the combination of diverse tools ranging from data collection and analysis to custom vi&shy;su&shy;al&shy;isa&shy;tion.</p>
       <p>My private life is naturally influenced by my work and vice versa. Therefore, I am interested in all kinds of <em>design</em>, <em>culture</em> and <em>technology</em>, especially how we can use these tools to create a diverse, equal and fair world.</p>
-      <p>Even though connected to my work, photography implies a break and recreation for me. Capturing something beautiful is a great combination of my love for aesthetics and the curiosity to explore foreign places.</p>
+      <p>Even though I had been working for some clients as a photographer I’m no longer taking photographs professionally. Nowadays, photography implies a break and recreation for me. Seeing the beauty of diversity, capturing moments that I shared with people or turning the camera down to hear the stories of the people surrounding me is all part of this journey.</p>
     </section>
     <section v-if="false">
       <h4>Links</h4>
