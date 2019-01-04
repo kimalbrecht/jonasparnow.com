@@ -21,12 +21,6 @@ module.exports = {
         given: 'Jonas',
         family: 'Parnow'
       },
-      adr: {
-        street: 'Bernhard-Lichtenberg-Straße 1',
-        postal: '10407',
-        city: 'Berlin',
-        country: 'Germany'
-      },
       twitter: '@zeto'
     }
   }

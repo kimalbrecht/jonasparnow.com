@@ -2,8 +2,7 @@
   <div class="container rows">
     <section>
       <h4 class="page-title">Datenschutzerklärung</h4>
-      <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
-      <Address />
+      <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist {{ contact.name.given }} {{ contact.name.family }}</p>
       <h5>Ihre Betroffenenrechte</h5>
       <p>Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:</p>
       <ul>
@@ -28,13 +27,10 @@
       <p>Wir halten uns an die Grundsätze der Datenvermeidung und Datensparsamkeit. Wir speichern Ihre personenbezogenen Daten daher nur so lange, wie dies zur Erreichung der hier genannten Zwecke erforderlich ist oder wie es die vom Gesetzgeber vorgesehenen vielfältigen Speicherfristen vorsehen. Nach Fortfall des jeweiligen Zweckes bzw. Ablauf dieser Fristen werden die entsprechenden Daten routinemäßig und entsprechend den gesetzlichen Vorschriften gesperrt oder gelöscht.</p>
       <h5>SSL-Verschlüsselung</h5>
       <p>Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.</p>
-      <h5>Verwendung von Adobe Typekit</h5>
-      <p>Wir setzen Adobe Typekit zur visuellen Gestaltung unserer Website ein. Typekit ist ein Dienst der Adobe Systems Software Ireland Ltd. der uns den Zugriff auf eine Schriftartenbibliothek gewährt. Zur Einbindung der von uns benutzten Schriftarten, muss Ihr Browser eine Verbindung zu einem Server von Adobe in den USA aufbauen und die für unsere Website benötigte Schriftart herunterladen. Adobe erhält hierdurch die Information, dass von Ihrer IP-Adresse unsere Website aufgerufen wurde. Weitere Informationen zu Adobe Typekit finden Sie in den Datenschutzhinweisen von Adobe, die Sie hier abrufen können: <a href="http://www.adobe.com/privacy/typekit.html" target="_blank" rel="noopener">adobe.com/privacy/typekit.html</a></p>
       <h5>Änderung unserer Datenschutzbestimmungen</h5>
       <p>Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.</p>
       <h5>Fragen an den Datenschutzbeauftragten</h5>
-      <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation:</p>
-      <Address />
+      <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation: {{ contact.name.given }} {{ contact.name.family }}</p>
     </section>
   </div>
 </template>
@@ -52,12 +48,9 @@
     },
     computed: {
       ...mapState([
-        'page'
+        'page',
+        'contact'
       ])
-    },
-    methods: {
-    },
-    directives: {
     },
     components: {
       Address

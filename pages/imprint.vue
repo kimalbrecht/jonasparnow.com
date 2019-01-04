@@ -3,7 +3,6 @@
     <section>
       <h4 class="page-title">Impressum</h4>
       <p>Verantwortlich für diese Homepage (Diensteanbieter) nach § 6 des Telemediengesetzes ist {{ contact.name.given }} {{ contact.name.family }}.</p>
-      <Address />
     </section>
     <section>
       <h4>Gewährleistungsausschluss</h4>
@@ -40,10 +39,6 @@
         'page',
         'contact'
       ])
-    },
-    methods: {
-    },
-    directives: {
     },
     components: {
       Address
