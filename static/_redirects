@@ -1,5 +1,7 @@
 # Redirect domain aliases to primary domain
 https://jonasparnow.de/* https://jonasparnow.com/:splat 301!
+http://jonasparnow.de/visualizations/* https://jonasparnow.com/:splat 301!
+http://jonasparnow.de/photography/* https://jonasparnow.com/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://jonasparnow.netlify.com/* https://jonasparnow.com/:splat 301!
