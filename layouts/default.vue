@@ -3,9 +3,9 @@
     <Header />
     <Navigation />
     <Aside />
-    <div class="page-content" role="main">
+    <main class="page-content" role="main">
       <nuxt/>
-    </div>
+    </main>
     <Footer />
   </div>
 </template>
