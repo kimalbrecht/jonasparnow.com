@@ -1,5 +1,8 @@
 # Redirect domain aliases to primary domain
 https://jonasparnow.de/* https://jonasparnow.com/:splat 301!
+https://jonasparnow.xyz/* https://jonasparnow.com/:splat 301!
+https://jonasparnow.eu/* https://jonasparnow.com/:splat 301!
+https://jonasparnow.net/* https://jonasparnow.com/:splat 301!
 /visualizations/* https://jonasparnow.com/ 301!
 /photography/* https://jonasparnow.com/ 301!
 
